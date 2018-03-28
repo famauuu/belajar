@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Vapether </title>
+		<link rel="shortcut icon" href="liquid.png">
+	</head>
+
+	<body>
+
+		<div><!-- div: untuk mengelompokkan berbagai sintax ke kelompoknya masing2 -->
+			 <!-- h=heading (judul besar dimulai dari h1-h6) -->
+			<center>
+				<img src="logoVapether.png" height="100" width="400" />
+			</center><br>
+		</div>
+
+		<label for="masuk"> Email atau Telepon </label>
+		<input type="text" id="masuk">&nbsp;&nbsp;
+
+		<label for="kata_sandi"> Kata Sandi </label>
+		<input type="text" id="kata_sandi">
+
+		<a href="index.html" align="left"><h4> MASUK </h4></a> 
+		<a href="index.html" align="left"><h5> Lupa Akun? </h5></a>
+
+		<div>
+			<center>
+				<h2> <font face="Algerian"> Vaping Together </font></h2>
+			</center>
+		</div>
+		
+		<div>
+
+			thegrove123
+			<hr>
+				<center>
+					<!-- a = membuat hyperlink-->
+					<!-- href = adalah attribute-->
+					<a href="index.html"> HOME </a>&nbsp;&nbsp;&nbsp; <!-- &nbsp :untuk menjarakkan beberapa baris -->
+					<a href="store.html"> STORE </a>&nbsp;&nbsp;&nbsp;
+					<a href="cart.html"> CART </a>&nbsp;&nbsp;&nbsp; <!-- <a href="cart.html" target="_blank"> CART </a> = attribute dengan membuka tab baru -->
+					<a href="forum.html"> FORUM </a>
+				</center>
+			<hr>
+		</div>
+
+		<div>
+			<center>
+				<!-- p=paragraph (isi/konton)-->
+				<p><font face="Algerian"> Selamat datang di Website Vapether </font></p> <!-- <br>: untuk memberikan baris baru pada paragraph  -->
+			</center>
+		</div>
+
+		<div>
+			<img src="homeVapether.jpg" alt="tulisan vapether" height="600" width="300" align="right" hspace="20" />
+		</div>
+
+		<!-- Form -->
+		<div> <!-- div: untuk mengelompokkan berbagai sintax ke kelompoknya masing2 -->
+			<form action="/action_page.php">
+				<fieldset>
+					<legend> <h3> Buat Akun Baru </h3> </legend> <!-- legend: utk menyatukan garis -->
+					<label for="nama_depan"></label> <!-- label: atribut bisa utk memberikan id (apabila diklik namanya maka akan ke formnya)-->
+					<input type="text" placeholder="Nama depan" id="nama_depan">&nbsp;&nbsp;
+					<input type="text" placeholder="Nama belakang">
+					<br>
+
+					<label for="email"></label>
+					<br>
+					<input type="text" placeholder="Nomor seluler atau email" id="email">
+					<br>
+
+					<label for="password"></label>
+					<br>
+					<input type="text" placeholder="Kata sandi baru" id="password">
+					<br><br>
+
+					<label for="ulang_tahun"> Ulang Tahun </label>
+					<br>
+					<input type="date" id="ulang_tahun">
+					<br><br>
+
+					<!-- text area (alamat)
+					<label for="alamat"></label>
+					<br>
+					<textarea cols="100" rows="7" placeholder="Saya bertempat tinggal beralamatkan..." id="alamat"></textarea>
+					<br>
+					-->
+
+					<!-- radio button -->
+					Jenis Kelamin:<br>
+					<input type="radio" name="gender" value="male" checked=> Male 
+					<br>
+					<input type="radio" name="gender" value="female"> Female
+					<br>
+
+					<p>
+						Dengan mengklik Buat Akun, maka Anda setuju dengan Ketentuan kami dan bahwa Anda sudah membaca Kebijakan Data kami, termasuk Penggunaan cookie kami. Anda akan menerima pemberitahuan SMS dari Vapether dan dapat menolaknya kapan saja.
+					</p>
+
+					<!-- submit button-->
+					<input type="submit" value="Buat Akun">
+					<br><br><!-- utk memberikan baris baru -->
+					</fieldset>
+			</form>
+		</div>
+
+			<hr> <!-- utk memberikan line/garis -->
+
+			<div>
+				<p align="center"> &copy; Copyright 2018 Fadhil Maulana </p>
+			</div>
+	</body>
+</html>
